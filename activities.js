@@ -21,6 +21,7 @@ function renderCheckboxes() {
         checkbox.id = mainActivity;
         checkbox.name = "activity";
         checkbox.value = mainActivity;
+        checkbox.checked = true;
     
         const label = document.createElement('label');
         label.htmlFor = mainActivity;
@@ -33,7 +34,7 @@ function renderCheckboxes() {
         const subContainer = document.createElement('div');
         subContainer.classList.add('sub-activities');
         subContainer.style.marginLeft = '20px';
-        subContainer.style.display = 'none'; // hidden until main is checked
+        subContainer.style.display = 'block'; 
     
         // Add sub-activities as checkboxes
         const subActivities = activities[mainActivity];
@@ -42,7 +43,7 @@ function renderCheckboxes() {
         subCheckbox.type = 'checkbox';
         subCheckbox.name = `sub-${mainActivity}`;
         subCheckbox.value = sub;
-        subCheckbox.disabled = true;
+        subCheckbox.checked = true;
     
         const subLabel = document.createElement('label');
         subLabel.innerText = sub;
@@ -55,7 +56,7 @@ function renderCheckboxes() {
         checkbox.addEventListener('change', function() {
         if (checkbox.checked) {
             subContainer.style.display = 'block';
-            subContainer.querySelectorAll('input[type="checkbox"]').forEach(cb => {cb.disabled = false; cb.checked = true});
+            subContainer.querySelectorAll('input[type="checkbox"]').forEach(cb => {cb.checked = true; cb.disabled = false});
         } else {
             subContainer.style.display = 'none';
             subContainer.querySelectorAll('input[type="checkbox"]').forEach(cb => {

@@ -1,5 +1,13 @@
 {
     "Gold Hoarders": ["Voyages", "Raid Voyages"],
     "Merchants": ["Voyages", "Raid Voyages"],
+    "Order of Souls": ["Voyages", "Raid Voyages"],
+    "Hunters Call": ["Voyages", "Raid Voyages", "Fishing"],
+    "Reapers": [],
+    "Athena's Fortune": ["Voyages", "Raid Voyages"],
+    "Bilge Rats": ["Fort of the Dammed", "Mercenary Voyages", "Chests of Fortune", "Guilds of Gold", "The Skull of Siren Song", "Treasures of Adventure", "The War Chest", "The Flame Rises", "Pirates of Mischief", "Wild Seas"],
+    "Servants of the Flame": [],
+    "Guardians of Fortune": [],
+    "Tall Tales": [],
     "Insiders": []
 }
