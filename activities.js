@@ -37,7 +37,7 @@ function renderCheckboxes() {
         subContainer.style.display = 'block'; 
     
         // Add sub-activities as checkboxes
-        const subActivities = activities[mainActivity];
+        const subActivities = activities[mainActivity][0];
         subActivities.forEach(sub => {
         const subCheckbox = document.createElement('input');
         subCheckbox.type = 'checkbox';
@@ -92,4 +92,13 @@ function randomizeActivity() {
     }
 
     document.getElementById('result').innerText = resultText;
+    console.log(main, activities[main]);
+    const imgPath = activities[main][1];
+    const imgEl   = document.getElementById('resultImg');
+    if (imgPath) {
+        imgEl.src = imgPath;
+        imgEl.style.display = 'block';
+    } else {
+        imgEl.style.display = 'none';
+    }
 }

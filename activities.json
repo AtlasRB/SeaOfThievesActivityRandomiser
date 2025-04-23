@@ -1,13 +1,13 @@
 {
-    "Gold Hoarders": ["Voyages", "Raid Voyages"],
-    "Merchants": ["Voyages", "Raid Voyages"],
-    "Order of Souls": ["Voyages", "Raid Voyages"],
-    "Hunters Call": ["Voyages", "Raid Voyages", "Fishing"],
-    "Reapers": [],
-    "Athena's Fortune": ["Voyages", "Raid Voyages"],
-    "Bilge Rats": ["Fort of the Dammed", "Mercenary Voyages", "Chests of Fortune", "Guilds of Gold", "The Skull of Siren Song", "Treasures of Adventure", "The War Chest", "The Flame Rises", "Pirates of Mischief", "Wild Seas"],
-    "Servants of the Flame": [],
-    "Guardians of Fortune": [],
-    "Tall Tales": [],
-    "Insiders": []
+    "Gold Hoarders": [["Voyages", "Raid Voyages"],"/images/goldHoarders.png"],
+    "Merchants": [["Voyages", "Raid Voyages"],"/images/merchants.png"],
+    "Order of Souls": [["Voyages", "Raid Voyages"],"/images/orderOfSouls.png"],
+    "Hunters Call": [["Voyages", "Raid Voyages", "Fishing"],"/images/hunters.png"],
+    "Reapers": [[],"/images/reapers.webp"],
+    "Athena's Fortune": [["Voyages", "Raid Voyages"],"/images/athenas.webp"],
+    "Bilge Rats": [["Fort of the Dammed", "Mercenary Voyages", "Chests of Fortune", "Guilds of Gold", "The Skull of Siren Song", "Treasures of Adventure", "The War Chest", "The Flame Rises", "Pirates of Mischief", "Wild Seas"],"/images/bilgeRats.webp"],
+    "Servants of the Flame": [[],"/images/servantHourglass.png"],
+    "Guardians of Fortune": [[],"/images/guardiansHourglass.png"],
+    "Tall Tales": [[],"/images/tallTales.png"],
+    "Insiders": [[],"/images/insiders.png"]
 }
