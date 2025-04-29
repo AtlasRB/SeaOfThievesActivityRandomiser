@@ -3,8 +3,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    text-align: center;
+}
+
+#container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -12,4 +16,20 @@ body {
     background-image: radial-gradient(rgba(0,0,0,1) 60%, rgba(0,0,0,0) 70%); 
     padding: 5%;
     border-radius: 4px;
+    text-align: start;
+    width: 10%;
+}
+
+#results {
+    background-image: radial-gradient(rgba(0,0,0,1) 45%, rgba(0,0,0,0) 70%); 
+    padding: 6%;
+    border-radius: 4px;
+    gap: 50px;
+    font-size: x-large;
+    width: 10%;
+}
+
+#resultImg {
+    margin-top: 10%;
+    justify-self: center;
 }

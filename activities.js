@@ -84,11 +84,11 @@ function randomizeActivity() {
     const selectedSubs = [...document.querySelectorAll(`input[name="sub-${main}"]:checked`)]
                             .map(cb => cb.value);
 
-    let resultText = `Main: ${main}`;
+    let resultText = `${main}`;
 
     if (selectedSubs.length > 0) {
         const sub = selectedSubs[Math.floor(Math.random() * selectedSubs.length)];
-        resultText += `\nSub: ${sub}`;
+        resultText += `\n${sub}`;
     }
 
     document.getElementById('result').innerText = resultText;
